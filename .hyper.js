@@ -31,6 +31,8 @@ module.exports = {
     // default: `false` on Linux, `true` on Windows (ignored on macOS)
     showHamburgerMenu: '',
 
+    // cursor blinking
+    cursorBlink: true,
     // set to `false` if you want to hide the minimize, maximize and close buttons
     // additionally, set to `'left'` if you want them on the left, like in Ubuntu
     // default: `true` on windows and Linux (ignored on macOS)
@@ -105,7 +107,6 @@ module.exports = {
     "hyperterm-tabs",
     "hyperterm-paste",
     "hyper-snazzy",
-    "hyper-blink",
     "hyperlinks",
     "hyperline",
     "hyperterm-title"
